@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    
+    
+    }
+header{
+    height: 40vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #232B2B;
+    position: relative;
+    padding-bottom: 120px;
+    margin-bottom: 10px;
+}
+header p{
+    color: white;
+}
+header h1{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    color: white;
+}
+#Again{
+    padding: 20px 25px;
+    background-color: white;
+    font-size: x-large;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    outline: none;
+}
+#Again:hover{
+    background-color: antiquewhite;
+    border: 3px solid white;
+}
+main{
+    background-color: #232B2B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+main .text{
+   padding: 30px;
+    width: 50rem;
+}
+main .text p{
+    color: white;
+}
+main .text p:first-child{
+    margin-bottom: 90px;
+}
+main .check{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50rem;
+}
+main .check input{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 50px ;
+    margin-bottom: 60px;
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    font-size: 30px;
+}
+main .check #Check{
+    width: 35%;
+    margin: auto;
+    padding: 25px 40px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    outline: none;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+main .check #Check:hover{
+    background-color: wheat;
+}
