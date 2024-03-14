@@ -4,7 +4,7 @@ number=document.querySelector("header .number")
 
 let score=document.querySelector('.text p:nth-child(2) span')
 hightscore=document.querySelector('.text p:last-child span')
-let Mysecret=Math.floor(Math.random() * 21) + 1;
+let Mysecret=Math.floor(Math.random() * 20) + 1;
 let myscore=20;
 Checkbtn=document.getElementById('Check').addEventListener('click',function(){
     myinput=parseInt(document.getElementById("mynum").value)
@@ -61,7 +61,7 @@ myAgain=document.getElementById("Again").addEventListener("click",function(){
     document.querySelector('header').style.backgroundColor='#232B2B';
     document.querySelector('main').style.backgroundColor='#232B2B';
     document.getElementById("mynum").readOnly=false;
-    Mysecret=Math.floor(Math.random() * 21) + 1;
+    Mysecret=Math.floor(Math.random() * 20) + 1;
     myfirstP.textContent=".... Start Guessing!!!";
     number.textContent="?"
     document.getElementById("mynum").value=""
