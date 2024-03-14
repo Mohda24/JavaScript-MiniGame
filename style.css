@@ -37,6 +37,19 @@ header h1{
     -o-transform: translateX(-50%);
     color: white;
 }
+header .number{
+    position: absolute;
+    font-size: 40px;
+    background-color: #eee;
+    padding: 35px 55px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+}
 #Again{
     padding: 20px 25px;
     background-color: white;
@@ -62,11 +75,17 @@ main .text{
    padding: 30px;
     width: 50rem;
 }
+.text p{
+    font-size: 20px;
+}
 main .text p{
     color: white;
 }
 main .text p:first-child{
     margin-bottom: 90px;
+}
+main .text p:nth-child(2){
+    margin-bottom: 20px;
 }
 main .check{
     display: flex;
