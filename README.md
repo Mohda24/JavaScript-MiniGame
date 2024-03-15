@@ -38,4 +38,4 @@ Welcome to the "Guess My Number" game! This is a simple web-based guessing game 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/guess-my-number.git
+   git clone https://github.com/Mohda24/JavaScript-MiniGame
